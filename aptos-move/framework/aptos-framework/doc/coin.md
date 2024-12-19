@@ -1012,7 +1012,7 @@ The value of aggregatable coin used for transaction fees redistribution does not
 
 <a id="0x1_coin_EAPT_PAIRING_IS_NOT_ENABLED"></a>
 
-APT pairing is not eanbled yet.
+APT pairing is not enabled yet.
 
 
 <pre><code><b>const</b> <a href="coin.md#0x1_coin_EAPT_PAIRING_IS_NOT_ENABLED">EAPT_PAIRING_IS_NOT_ENABLED</a>: u64 = 28;
@@ -1042,7 +1042,7 @@ The BurnRefReceipt does not match the BurnRef to be returned.
 
 <a id="0x1_coin_ECOIN_CONVERSION_MAP_NOT_FOUND"></a>
 
-The coin converison map is not created yet.
+The coin conversion map is not created yet.
 
 
 <pre><code><b>const</b> <a href="coin.md#0x1_coin_ECOIN_CONVERSION_MAP_NOT_FOUND">ECOIN_CONVERSION_MAP_NOT_FOUND</a>: u64 = 27;
