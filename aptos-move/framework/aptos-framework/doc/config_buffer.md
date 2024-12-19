@@ -10,7 +10,7 @@ Once reconfigure with DKG is introduced, every on-chain config <code>C</code> sh
 - Implement <code>C::set_for_next_epoch()</code> using <code><a href="config_buffer.md#0x1_config_buffer_upsert">upsert</a>()</code> function in this module.
 - Implement <code>C::on_new_epoch()</code> using <code><a href="config_buffer.md#0x1_config_buffer_extract">extract</a>()</code> function in this module.
 - Update <code><a href="reconfiguration_with_dkg.md#0x1_reconfiguration_with_dkg_finish">0x1::reconfiguration_with_dkg::finish</a>()</code> to call <code>C::on_new_epoch()</code>.
-- Support sychronous update when DKG is disabled.
+- Support synchronous update when DKG is disabled.
 This is typically done by implementing <code>C::set()</code> to update the config resource directly.
 
 NOTE: on-chain config <code>0x1::state::ValidatorSet</code> implemented its own buffer.
